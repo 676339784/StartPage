@@ -2,22 +2,23 @@
     "bool": {
         "borders":              true,
         "alwaysopen":           false,
-        "mascot":               false
+        "mascot":               false,
+        "allowVersionCheck":    true
     },
     
     "style": {
-        "heading_font":         "tewi",
-        "link_font":            "tewi",
-        "heading_font_size":    "10px",
-        "link_font_size":       "10px",
-        "background":           "#19191b",
-        "foreground":           "#121212",
-        "heading_color":        "#8d2036",
-        "link_color":           "#999999",
-        "border_color":         "#8d2036",
-        "border_width":         "2px",
-        "search_color":         "#cacaca",
-        "search_bg_color":      "#2a2a2a"
+        "heading_font":         "Roboto",
+        "link_font":            "Roboto",
+        "heading_font_size":    "14px",
+        "link_font_size":       "12px",
+        "background":           "#000000",
+        "foreground":           "#cccccc",
+        "heading_color":        "#FFFFFF",
+        "link_color":           "#FFFFFF",
+        "border_color":         "#FAFAFA",
+        "border_width":         "10px",
+        "search_color":         "#FFFFFF",
+        "search_bg_color":      "#000000"
     },
     
     "ext": {

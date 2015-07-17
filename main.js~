@@ -166,14 +166,14 @@ function search(query){
             window.location = "https://www.google.com/#q=" +
                 query.replaceChars(" ", "+");
             break;
-        case "-d":
+        case "-a":
             query = query.substr(3);
             window.location = "https://duckduckgo.com/?q=" +
                 query.replaceChars(" ", "+");
             break;
-        case "-l":
+        case "-d":
             query = query.substr(3);
-            window.location = "http://genius.com/search?q=" +
+            window.location = "http://danbooru.donmai.us/posts?tags=" +
                 query.replaceChars(" ", "+");
             break;
         case "-y":
@@ -182,10 +182,16 @@ function search(query){
                 "https://www.youtube.com/results?search_query=" +
                 query.replaceChars(" ", "+");
             break;
-        case "-w":
+        case "-n":
             query = query.substr(3);
-            window.location = "https://en.wikipedia.org/w/index.php?title=Special%3ASearch&profile=default&search=" +
-                query.replaceChars(" ", "+");
+            window.location = "http://www.nicovideo.jp/search/" +
+                query.replaceChars(" ", "%20");
+            break;
+        case "-p":
+            query = query.substr(3);
+            window.location =
+                "http://www.pixiv.net/search.php?s_mode=s_tag&word=" +
+                query.replaceChars(" ", "%20");
             break;
         default:
             window.location="https://www.google.com/#q=" +
@@ -201,8 +207,8 @@ window.onresize = function(){
 
 
 window.onload = function(){
-    HelpText = "-d DuckDuckGo<br>-g Google (default)<br>\
-                -h Shows this list<br>-l Genius<br>-w Wikipedia<br>-y YouTube";
+    HelpText = "-h Shows this list<br>-g Google (default)<br>-a DuckDuckGo\
+                <br>-d Danbooru<br>-y YouTube<br>-n niconico<br>-p pixiv";
     visibility = false;
     container = document.getElementById("container");
     fixJitter(container);
