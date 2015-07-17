@@ -42,15 +42,14 @@ Keep the structure like this:
 <br>
 ###### search
 ```
--h      Show this list
+-d      DuckDuckGo
 -g      Google (default)
--a      DuckDuckGo
--d      danbooru
+-h      Shows this list
+-l      Genius
+-w      Wikipedia
 -y      YouTube
--n      niconicodouga
--p      pixiv
 ```
-The following example will search for _github_ using _DuckDuckGo_:<br>
--a github<br>
+The following example will search for _github_ using _Wikipedia_:<br>
+-w github<br>
 If an invalid search option or none at all is specified, Google is used.
-For danbooru, use underscores (_) for tags with more than one word and separate multiple tags with space (e.g.: school_uniform 1girl).
+
