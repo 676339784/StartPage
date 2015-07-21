@@ -1,8 +1,8 @@
 startpage
 ====
 
-![example screenshot (150619)](http://i.imgur.com/GSwXf57.png)
-![example screenshot expanded (150619)](http://i.imgur.com/cA1teIS.png)
+![example screenshot (150721)](https://raw.githubusercontent.com/676339784/676339784.github.io/master/StartPage/startpage%201%20dark.png)
+![example screenshot expanded (150721)](https://raw.githubusercontent.com/676339784/676339784.github.io/master/StartPage/startpage%202%20dark.png)
 
 
 <br>
