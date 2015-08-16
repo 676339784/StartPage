@@ -46,6 +46,7 @@ Keep the structure like this:
 -g      Google (default)
 -h      Shows this list
 -l      Genius
+-r      RateYourMusic (artist)
 -w      Wikipedia
 -y      YouTube
 ```
