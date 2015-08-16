@@ -42,20 +42,16 @@ Keep the structure like this:
 <br>
 ###### search
 ```
--h      Show this list
--g      Google (default)
-<<<<<<< HEAD
--a      DuckDuckGo
--d      danbooru
-=======
+
 -h      Shows this list
+-d      DuckDuckGo
+-g      Google (default)
 -l      Genius
--r      RateYourMusic (artist)
+-r      RateYourMusic
 -w      Wikipedia
->>>>>>> origin/master
 -y      YouTube
--n      niconicodouga
--p      pixiv
+
+
 ```
 The following example will search for _github_ using _DuckDuckGo_:<br>
 -a github<br>
