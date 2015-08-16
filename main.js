@@ -206,8 +206,13 @@ window.onresize = function(){
 
 
 window.onload = function(){
+<<<<<<< HEAD
     HelpText = "-d DuckDuckGo<br>-g Google (default)<br>\
                 -h Shows this list<br>-l Genius<br>-w Wikipedia<br>-y YouTube";
+=======
+    HelpText = "-h Shows this list<br>-g Google (default)<br>-a DuckDuckGo\
+                <br>-d Danbooru<br>-y YouTube<br>-n niconico<br>-p pixiv";
+>>>>>>> yukisuki/master
     visibility = false;
     container = document.getElementById("container");
     fixJitter(container);
