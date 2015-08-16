@@ -176,6 +176,11 @@ function search(query){
             window.location = "http://genius.com/search?q=" +
                 query.replaceChars(" ", "+");
             break;
+	case "-r":
+	    query = query.substr(3);
+	    window.location = "https://rateyourmusic.com/search?searchtype=a&searchterm=" +
+		query.replaceChars(" ", "+");
+	    break;
         case "-y":
             query = query.substr(3);
             window.location =
