@@ -186,9 +186,15 @@ function search(query){
             window.location = "https://en.wikipedia.org/w/index.php?title=Special%3ASearch&profile=default&search=" +
                 query.replaceChars(" ", "+");
             break;
+	case "-r":
+            query = query.substr(3);
+            window.location = "https://rateyourmusic.com/search?searchtype=a&searchterm=" +
+                query.replaceChars(" ", "+");
+	    break;
         default:
             window.location="https://www.google.com/#q=" +
                 query.replaceChars(" ", "+");
+
     }
 }
 
@@ -200,13 +206,9 @@ window.onresize = function(){
 
 
 window.onload = function(){
-<<<<<<< HEAD
     HelpText = "-d DuckDuckGo<br>-g Google (default)<br>\
-                -h Shows this list<br>-l Genius<br>-w Wikipedia<br>-y YouTube";
-=======
-    HelpText = "-h Shows this list<br>-g Google (default)<br>-a DuckDuckGo\
-                <br>-d Danbooru<br>-y YouTube<br>-n niconico<br>-p pixiv";
->>>>>>> yukisuki/master
+                -h Shows this list<br>-l Genius<br>-r RateYourMusic<br>-w Wikipedia<br>-y YouTube";
+
     visibility = false;
     container = document.getElementById("container");
     fixJitter(container);

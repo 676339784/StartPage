@@ -1,8 +1,8 @@
 startpage
 ====
 
-![example screenshot (150721)](https://raw.githubusercontent.com/676339784/676339784.github.io/master/StartPage/startpage%201%20dark.png)
-![example screenshot expanded (150721)](https://raw.githubusercontent.com/676339784/676339784.github.io/master/StartPage/startpage%202%20dark.png)
+![example screenshot (150619)](http://i.imgur.com/GSwXf57.png)
+![example screenshot expanded (150619)](http://i.imgur.com/cA1teIS.png)
 
 
 <br>
@@ -42,14 +42,15 @@ Keep the structure like this:
 <br>
 ###### search
 ```
--d      DuckDuckGo
+-h      Show this list
 -g      Google (default)
--h      Shows this list
--l      Genius
--w      Wikipedia
+-a      DuckDuckGo
+-d      danbooru
 -y      YouTube
+-n      niconicodouga
+-p      pixiv
 ```
-The following example will search for _github_ using _Wikipedia_:<br>
--w github<br>
+The following example will search for _github_ using _DuckDuckGo_:<br>
+-a github<br>
 If an invalid search option or none at all is specified, Google is used.
-
+For danbooru, use underscores (_) for tags with more than one word and separate multiple tags with space (e.g.: school_uniform 1girl).
