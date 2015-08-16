@@ -44,8 +44,15 @@ Keep the structure like this:
 ```
 -h      Show this list
 -g      Google (default)
+<<<<<<< HEAD
 -a      DuckDuckGo
 -d      danbooru
+=======
+-h      Shows this list
+-l      Genius
+-r      RateYourMusic (artist)
+-w      Wikipedia
+>>>>>>> origin/master
 -y      YouTube
 -n      niconicodouga
 -p      pixiv
