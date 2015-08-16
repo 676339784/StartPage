@@ -183,8 +183,7 @@ function search(query){
 	    break;
         case "-y":
             query = query.substr(3);
-            window.location =
-                "https://www.youtube.com/results?search_query=" +
+            window.location = "https://www.youtube.com/results?search_query=" +
                 query.replaceChars(" ", "+");
             break;
         case "-w":
